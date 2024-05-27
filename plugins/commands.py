@@ -34,7 +34,7 @@ async def start(bot, update):
     await update.reply_photo(
         photo=Translation.PIC,
         caption=Translation.START_TEXT.format(update.from_user.mention),
-        disable_web_page_preview=True,
+       # disable_web_page_preview=True,
         reply_markup=Translation.START_BUTTONS
     )
 
