@@ -3,7 +3,7 @@ from plugins.config import Config
 from plugins.script import Translation
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, ForceReply
 
-PIC ="https://telegra.ph/file/97e325476ebe8dd8676ad.jpg",
+PIC ="https://telegra.ph/file/97e325476ebe8dd8676ad.jpg"
 
 
 @Client.on_message(filters.private & filters.command(["invite"]))
