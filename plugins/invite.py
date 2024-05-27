@@ -14,5 +14,5 @@ async def ref(client, message):
         photo=PIC,
         caption=Translation.ABOUT_TEXT,
         disable_web_page_preview=True,
-        reply_markup=BUTTONS
+        reply_markup=Translation.BUTTONS
     )
