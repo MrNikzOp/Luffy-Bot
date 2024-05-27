@@ -27,7 +27,7 @@ async def button(bot, update):
         )
      elif update.data == "about":
         await update.message.edit_text(
-            text=Translation.PAY_TEXT,
+            text=Translation.ABOUT_TEXT,
             reply_markup=Translation.ABOUT_BUTTONS,
             disable_web_page_preview=True
         )
