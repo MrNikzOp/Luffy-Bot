@@ -90,8 +90,3 @@ Thank You For Using Me❣️</i>"""
         InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
         ]]
     )
-    INVITE_BUTTONS = InlineKeyboardMarkup(
-        [[
-         InlineKeyboardButton('📡 Sʜᴀʀᴇ Yᴏᴜʀ Lɪɴᴋ' ,url=f"https://t.me/share/url?url=https://t.me/LuffySale_Bot?start={message.from_user.id}") 
-        ]]
-    )
