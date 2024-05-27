@@ -56,12 +56,12 @@ Click Pay Button, Pay The Amount And JOIN 🫦**
         InlineKeyboardButton('⛔️ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
-    HELP_BUTTONS = InlineKeyboardMarkup(
+    PREMIUM_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('🏡 ʜᴏᴍᴇ', callback_data='home'),
-        InlineKeyboardButton('👨‍🚒 ᴀʙᴏᴜᴛ', callback_data='about')
+        InlineKeyboardButton('💰 Pᴀʏ 100', callback_data='pay'),
+        InlineKeyboardButton('Dᴇᴍᴏ Pɪᴄꜱ 🏞️', callback_data='about')
         ],[
-        InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('⛔️ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
