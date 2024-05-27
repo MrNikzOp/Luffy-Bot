@@ -17,6 +17,8 @@ class Config(object):
     
     API_HASH = os.environ.get("API_HASH", "8b9b8214d84305d5ba8042c93575ea84")
 
+    DOWNLOAD_LOCATION = "./DOWNLOADS"
+
     HTTP_PROXY = os.environ.get("HTTP_PROXY", "")
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://UploadLinkToFileBot:UploadLinkToFileBot@cluster0.1gybihh.mongodb.net/?retryWrites=true&w=majority")
