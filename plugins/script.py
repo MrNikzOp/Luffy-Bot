@@ -39,7 +39,16 @@ Click Pay Button, Pay The Amount And JOIN 🫦**
 
 **Dᴇᴠᴇʟᴏᴘᴇʀ :** @Luffy
 """
+    INFO_TXT = """<i>
+<u>Yᴏᴜʀ Dᴇᴛᴀɪʟꜱ</u>
 
+○ ID : <code>{id}</code>
+○ DC : <code>{dc}</code>
+○ First Name : <code>{n}<code>
+○ UserName : @{u}
+○ link : <code>https://t.me/{u}</code>
+
+Thank You For Using Me❣️</i>"""
 
     PROGRESS = """
 🏎️ Sᴘᴇᴇᴅ : {3}/s\n\n
