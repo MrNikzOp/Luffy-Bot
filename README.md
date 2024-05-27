@@ -4,6 +4,9 @@
 
 [![logo](https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg)](https://telegram.dog/UploadLinkToFileBot)
 
+![Typing SVG](https://readme-typing-svg.herokuapp.com/?lines=WELCOME+TO+LUFFY BOT+PREMIUM BOT)
+</p>
+
 ### How To Deploy Render
 
 <b><details><summary>Tap On Me For Deploy</summary>
