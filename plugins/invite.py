@@ -11,6 +11,6 @@ async def refer(client,message):
  #   await message.react(emoji="🔥")
     await message.reply_photo(
       photo=Translation.PIC,
-      caption=Translation.ABOUT_TEXT, 
-      reply_markup=Translation.BUTTONS
+      caption=Translation.INVITE_TEXT, 
+      reply_markup=Translation.INVITE_BUTTONS
     )
