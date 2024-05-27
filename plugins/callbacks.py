@@ -20,10 +20,10 @@ async def button(bot, update):
             reply_markup=Translation.START_BUTTONS,
             disable_web_page_preview=True
         )
-    elif update.data == "help":
+    elif update.data == "premium":
         await update.message.edit_text(
-            text=Translation.HELP_TEXT,
-            reply_markup=Translation.HELP_BUTTONS,
+            text=Translation.DETAILS_TEXT.format(update.from_user.mention),
+            reply_markup=Translation.DETAILS_BUTTONS,
             disable_web_page_preview=True
         )
     elif update.data == "about":
