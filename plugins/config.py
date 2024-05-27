@@ -11,7 +11,7 @@ logging.basicConfig(
 
 class Config(object):
     
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6475853194:AAGee7E3blzvEnY_bUCFFq0-cWskzyXsfK8")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6526539974:AAEN2s80bUgYi-0fRG72E9_M2L4otEBHuvA")
     
     API_ID = int(os.environ.get("API_ID", "4888076"))
     
@@ -21,15 +21,15 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://UploadLinkToFileBot:UploadLinkToFileBot@cluster0.1gybihh.mongodb.net/?retryWrites=true&w=majority")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", "UploadLinkToFileBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "LuffyBot")
     
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002145935116"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002070853757"))
     
     LOGGER = logging
 
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002145935116")
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1002070853757")
 
-    OWNER_ID = int(os.environ.get("OWNER_ID", "5656422326"))
+    OWNER_ID = int(os.environ.get("OWNER_ID", "6807518752"))
     
     BOT_USERNAME = os.environ.get("BOT_USERNAME", "LuffyBot")
                                   
