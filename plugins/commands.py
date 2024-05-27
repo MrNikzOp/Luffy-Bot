@@ -15,6 +15,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from plugins.database.add import add_user_to_database
 from plugins.functions.forcesub import handle_force_subscribe
 
+PIC = "https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg"
+
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
     if not update.from_user:
@@ -29,8 +31,9 @@ async def start(bot, update):
       fsub = await handle_force_subscribe(bot, update)
       if fsub == 400:
         return
-    await update.reply_text(
-        text=Translation.START_TEXT.format(update.from_user.mention),
+    await update.reply_photo(
+        photo=PIC,
+        caption=Translation.START_TEXT.format(update.from_user.mention),
         disable_web_page_preview=True,
         reply_markup=Translation.START_BUTTONS
     )
