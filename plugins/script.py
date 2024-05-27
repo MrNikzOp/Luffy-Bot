@@ -68,8 +68,9 @@ Thank You For Using Me❣️</i>"""
     PREMIUM_BUTTONS = InlineKeyboardMarkup(
         [[
         InlineKeyboardButton('💰 Pᴀʏ 100', callback_data='pay'),
-        InlineKeyboardButton('Dᴇᴍᴏ Pɪᴄꜱ 🏞️', callback_data='about')
         ],[
+         InlineKeyboardButton('Dᴇᴍᴏ Pɪᴄꜱ 🏞️', callback_data='about')
+        ],[    
         InlineKeyboardButton('⛔️ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
