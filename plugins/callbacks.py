@@ -2,8 +2,6 @@ import os
 from plugins.functions.display_progress import progress_for_pyrogram, humanbytes
 from plugins.config import Config
 from plugins.dl_button import ddl_call_back
-from plugins.button import youtube_dl_call_back
-from plugins.settings.settings import OpenSettings
 from plugins.script import Translation
 from pyrogram import Client, types
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
