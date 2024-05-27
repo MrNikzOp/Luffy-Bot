@@ -1,4 +1,5 @@
 aiohttp
+tgcrypto
 beautifulsoup4
 hachoir
 numpy
