@@ -10,7 +10,7 @@ PIC = "https://telegra.ph/file/97e325476ebe8dd8676ad.jpg"
 async def refer(client,message):
  #   await message.react(emoji="🔥")
     await message.reply_photo(
-      photo=PIC,
+      photo=Translation.PIC,
       caption=Translation.ABOUT_TEXT, 
       reply_markup=Translation.BUTTONS
     )
