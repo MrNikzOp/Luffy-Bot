@@ -52,7 +52,7 @@ Thank You For Using Me❣️</i>"""
 
     INVITE_TEXT = "**INVITE YOUR FRIENDS 🫶**"
 
-    PAY_TEXT = """
+    NEW_TEXT = """
     **Pᴀʏ Aɴᴅ Sᴇɴᴅ Sᴄʀᴇᴇɴꜱʜᴏᴛ** 
 
     പേയ്‌മെന്റ് ചെയ്യുക എന്നിട്ട് screenshot ഇതിലേക്ക് അയക്കുക 
@@ -71,8 +71,6 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
 """
 
     PIC = "https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg"
-
-    PIC_PAY = "https://telegra.ph/file/4acfd5a112e10ba0bf34f.jpg"
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[  
