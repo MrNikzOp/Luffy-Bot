@@ -50,6 +50,8 @@ Click Pay Button, Pay The Amount And JOIN 🫦**
 
 Thank You For Using Me❣️</i>"""
 
+    INVITE_TEXT = "**INVITE YOUR FRIENDS 🫶**"
+
     PROGRESS = """
 🏎️ Sᴘᴇᴇᴅ : {3}/s\n\n
 ✅ Dᴏɴᴇ : {1}\n\n
