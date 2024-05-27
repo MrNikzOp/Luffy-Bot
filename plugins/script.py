@@ -57,6 +57,7 @@ Thank You For Using Me❣️</i>"""
 ⏳ Tɪᴍᴇ ʟᴇғᴛ : {4}\n\n
 """
 
+    PIC = "https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg"
 
     START_BUTTONS = InlineKeyboardMarkup(
         [[  
