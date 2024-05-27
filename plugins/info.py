@@ -32,7 +32,7 @@ async def media_info(bot, m):
                                         
     if not md:
         buttons = [[
-            InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data="cancel")
+            InlineKeyboardButton("✘ Cʟᴏꜱᴇ", callback_data="close")
         ]]       
         mkn = await m.reply("**Pʟᴇᴀꜱᴇ Wᴀɪᴛ....**")
         if ff.photo:
