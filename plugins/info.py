@@ -3,7 +3,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, ForceReply
 from plugins.config import Config
 from plugins.script import Translation
-from plugins.forcesub import handle_force_subscribe
+from plugins.functions.forcesub import handle_force_subscribe
 
 @Client.on_message(filters.command(["id", "info"]))
 async def media_info(bot, m): 
