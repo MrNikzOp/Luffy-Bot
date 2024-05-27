@@ -16,7 +16,7 @@ async def about(client, message):
   #  await message.reply_photo(photo)  
     await message.reply_photo(
         photo=PIC,
-        caption=Translation.ABOUT_TXT,
+        caption=Translation.ABOUT_TEXT,
         disable_web_page_preview=True,
         reply_markup=BUTTONS
     )
