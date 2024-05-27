@@ -10,7 +10,9 @@ logging.basicConfig(level=logging.DEBUG,
                     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-
+@Client.on_callback_query(filters.regex("close"))
+async def cancel(client, callback_query):
+    await callback_query.message.delete()
 
 @Client.on_callback_query()
 async def button(bot, update):
