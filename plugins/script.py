@@ -101,7 +101,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('👤 Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', url='https://t.me/share/url?url=https://t.me/Lufffybro_bot?start={update.from_user.id}')    
+        InlineKeyboardButton('👤 Cᴏɴᴛᴀᴄᴛ Aᴅᴍɪɴ', user_id='6807518752')    
         ],[
         InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='premium'),       
         InlineKeyboardButton('✘ Cʟᴏsᴇ', callback_data='close')
