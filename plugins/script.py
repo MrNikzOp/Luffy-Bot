@@ -87,7 +87,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
         ],[
          InlineKeyboardButton('Dᴇᴍᴏ Pɪᴄꜱ 🏞️', callback_data='about')
         ],[ 
-        InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='premium'),   
+        InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='home'),   
         InlineKeyboardButton('✘ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
