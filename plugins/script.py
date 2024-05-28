@@ -81,7 +81,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
     )
     PREMIUM_BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('💰 Pᴀʏ 100', callback_data='payment'),
+        InlineKeyboardButton('💰 Pᴀʏ 100', callback_data='payment')
         ],[
          InlineKeyboardButton('Dᴇᴍᴏ Pɪᴄꜱ 🏞️', callback_data='about')
         ],[    
