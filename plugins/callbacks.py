@@ -26,9 +26,9 @@ async def button(bot, update):
             disable_web_page_preview=True
         )
     elif update.data == "payment":
-      await update.message.edit_media(
-        media=Translation.PIC,
-        caption=Translation.QR_TEXT,
+      await update.message.reply_photo(
+        photo=Translation.QR_IMG,
+        text=Translation.QR_TEXT,
         reply_markup=Translation.BUTTONS,
         disable_web_page_preview=True
       )
