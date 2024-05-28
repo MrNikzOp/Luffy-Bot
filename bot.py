@@ -22,6 +22,7 @@ if __name__ == "__main__" :
         api_hash=Config.API_HASH,
         plugins=plugins)
 
-   print("• Created By R J")
-   app.run()
+   # Start the bot
+print("♻️ I AM ALIVE  @LuffyBot ♻️")
+app.run()
 
