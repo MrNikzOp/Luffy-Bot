@@ -78,7 +78,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
         [[  
         InlineKeyboardButton('രോമാഞ്ചം പ്രീമിയം 🔕', callback_data='premium')
         ],[
-        InlineKeyboardButton('⛔️ Cʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('✘ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
     PREMIUM_BUTTONS = InlineKeyboardMarkup(
@@ -86,8 +86,9 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
         InlineKeyboardButton('💰 Pᴀʏ 100', callback_data='payment')
         ],[
          InlineKeyboardButton('Dᴇᴍᴏ Pɪᴄꜱ 🏞️', callback_data='about')
-        ],[    
-        InlineKeyboardButton('⛔️ Cʟᴏsᴇ', callback_data='close')
+        ],[ 
+        InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='premium'),   
+        InlineKeyboardButton('✘ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
     ABOUT_BUTTONS = InlineKeyboardMarkup(
@@ -100,6 +101,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('⛔️ ᴄʟᴏsᴇ', callback_data='close')
+        InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='payment'),       
+        InlineKeyboardButton('✘ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
