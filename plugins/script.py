@@ -101,7 +101,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ: t.me/Luffy0000007
     )
     BUTTONS = InlineKeyboardMarkup(
         [[
-        InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='payment'),       
+        InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='premium'),       
         InlineKeyboardButton('✘ Cʟᴏsᴇ', callback_data='close')
         ]]
     )
