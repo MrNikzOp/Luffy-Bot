@@ -23,7 +23,7 @@ class Config(object):
 
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://UploadLinkToFileBot:UploadLinkToFileBot@cluster0.1gybihh.mongodb.net/?retryWrites=true&w=majority")
     
-    SESSION_NAME = os.environ.get("SESSION_NAME", "LuffyBot")
+    SESSION_NAME = os.environ.get("SESSION_NAME", "LuffySale_Bot")
     
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002070853757"))
     
@@ -33,5 +33,5 @@ class Config(object):
 
     OWNER_ID = int(os.environ.get("OWNER_ID", "6807518752"))
     
-    BOT_USERNAME = os.environ.get("BOT_USERNAME", "LuffyBot")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "LuffySale_Bot")
                                   
