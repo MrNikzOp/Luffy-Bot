@@ -31,5 +31,12 @@ async def button(bot, update):
         reply_markup=Translation.BUTTONS,
         disable_web_page_preview=True
       )
+      elif update.data == "qrpay":
+      await update.message.reply_photo(
+        photo=Translation.PAYMENT_QR, 
+        text=Translation.QR_TEXT,
+        reply_markup=Translation.BUTTONS,
+        disable_web_page_preview=True
+    )
     elif "close" in update.data:
         await update.message.delete(True)
