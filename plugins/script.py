@@ -72,7 +72,7 @@ Dɪʀᴇᴄᴛ Pᴀʏ:** t.me/Luffy0000007
 
     PIC = "https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg"
 
-    QR_IMG = "https://telegra.ph/file/4acfd5a112e10ba0bf34f.jpg"
+    PAYMENT_QR = "https://telegra.ph/file/4acfd5a112e10ba0bf34f.jpg"
     
     START_BUTTONS = InlineKeyboardMarkup(
         [[  
