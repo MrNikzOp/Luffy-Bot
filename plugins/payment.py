@@ -32,7 +32,7 @@ async def start(bot, update):
         return
     await update.reply_photo(
         photo=Translation.PAYMENT_QR,
-        caption=Translation.PREMIUM_TEXT.format(update.from_user.mention),
+        caption=Translation.QR_TEXT.format(update.from_user.mention),
        # disable_web_page_preview=True,
         reply_markup=Translation.BUTTONS
     )
