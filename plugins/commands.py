@@ -4,7 +4,7 @@ import psutil
 import shutil
 import string
 import asyncio
-from pyrogram import Client, filters
+from pyrogram import Client, filters, enums
 from asyncio import TimeoutError
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, ForceReply
@@ -26,7 +26,9 @@ async def start(bot, update):
         Config.LOG_CHANNEL,
            f"#NEW_USER: \n\nNew User [{update.from_user.first_name}](tg://user?id={update.from_user.id}) started @{Config.BOT_USERNAME}!!"
     )
-    
+    await message.react(emoji="🔥")
+
+    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
     if Config.UPDATES_CHANNEL:
       fsub = await handle_force_subscribe(bot, update)
       if fsub == 400:
