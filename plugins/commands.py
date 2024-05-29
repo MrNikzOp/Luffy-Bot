@@ -19,6 +19,8 @@ PIC = "https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg"
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
+    await message.react(emoji="🔥")
+    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
     if not update.from_user:
         return await update.reply_text("I don't know about you sar :(")
     await add_user_to_database(bot, update)
@@ -26,9 +28,7 @@ async def start(bot, update):
         Config.LOG_CHANNEL,
            f"#NEW_USER: \n\nNew User [{update.from_user.first_name}](tg://user?id={update.from_user.id}) started @{Config.BOT_USERNAME}!!"
     )
-    await message.react(emoji="🔥")
-
-    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
+    
     if Config.UPDATES_CHANNEL:
       fsub = await handle_force_subscribe(bot, update)
       if fsub == 400:
