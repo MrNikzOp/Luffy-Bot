@@ -23,7 +23,7 @@ async def start(bot, update):
     await add_user_to_database(bot, update)
     await bot.send_message(
         Config.LOG_CHANNEL,
-           f"#PAYMENT💰 : \n\nPay Button Clicked [{update.from_user.first_name}](tg://user?id={update.from_user.id}) 💰 Payment @{Config.BOT_USERNAME}!!"
+           f"#PAYMENT💰 : \n\nPay Button Clicked [{update.from_user.first_name}](tg://user?id={update.from_user.id})\n 💰 Payment @{Config.BOT_USERNAME}!!"
     )
     
     if Config.UPDATES_CHANNEL:
