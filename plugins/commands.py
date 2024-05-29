@@ -4,7 +4,7 @@ import psutil
 import shutil
 import string
 import asyncio
-from pyrogram import Client, filters, enums
+from pyrogram import Client, filters
 from asyncio import TimeoutError
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, CallbackQuery, ForceReply
@@ -19,8 +19,6 @@ PIC = "https://telegra.ph/file/72b1efaa44944d2b9e1b9.jpg"
 
 @Client.on_message(filters.command(["start"]) & filters.private)
 async def start(bot, update):
-    await message.react(emoji="🔥")
-    if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
     if not update.from_user:
         return await update.reply_text("I don't know about you sar :(")
     await add_user_to_database(bot, update)
