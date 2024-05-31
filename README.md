@@ -1,4 +1,4 @@
-![logo](https://graph.org/file/754b7faa1308a13fc917f.jpg)
+![logo](https://telegra.ph/file/13138bb072d6ae54386d4.jpg)
 
 <h1 align="center">
   <b> Luffy Bot </b>
