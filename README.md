@@ -1,4 +1,4 @@
-![logo](https://telegram.dog/UploadLinkToFileBot)
+![logo](https://graph.org/file/754b7faa1308a13fc917f.jpg)
 
 <h1 align="center">
   <b> Luffy Bot </b>
